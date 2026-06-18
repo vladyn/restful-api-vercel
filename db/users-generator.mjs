@@ -1,0 +1,37 @@
+import { faker } from '@faker-js/faker';
+import { writeFileSync } from 'node:fs';
+
+faker.seed(99);
+
+const users = Array.from({ length: 99 }, (_, index) => {
+    const firstName = faker.person.firstName();
+    const lastName = faker.person.lastName();
+
+    return {
+        id: index + 1,
+        firstName,
+        lastName,
+        name: `${firstName} ${lastName}`,
+        username: faker.internet.username({ firstName, lastName }).toLowerCase(),
+        email: faker.internet.email({ firstName, lastName }).toLowerCase(),
+        avatar: faker.image.avatar(),
+        phone: faker.phone.number(),
+        department: faker.helpers.arrayElement(["Human Resources", "Finance", "Marketing", "Engineering", "Product Management"]),
+        role: faker.helpers.arrayElement(["Admin", "Viewer", "Editor"]),
+        address: {
+            street: faker.location.streetAddress(),
+            city: faker.location.city(),
+            state: faker.location.state(),
+            country: faker.location.country(),
+            zipCode: faker.location.zipCode(),
+        },
+        createdAt: faker.date.past({ years: 2 }).toISOString(),
+        status: faker.helpers.arrayElement(["Active", "Inactive"]),
+    };
+});
+
+const db = {
+    users,
+};
+
+writeFileSync('/tmp/db.json', `${JSON.stringify(db, null, 2)}\n`);
