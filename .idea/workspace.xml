@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68d846c1-1c8b-4d7b-9cae-cda4f80f9f3b" name="Changes" comment="tmp to file">
+    <list default="true" id="68d846c1-1c8b-4d7b-9cae-cda4f80f9f3b" name="Changes" comment="vercel pre-build">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/users-generator.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vercel.json" beforeDir="false" afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +27,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="da-update" />
+        <entry key="$PROJECT_DIR$" value="folder-to-write" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -57,23 +61,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0002173845875906" />
-      <entry key="MS500" value="1.2371001479300405" />
-      <entry key="S2" value="2.1335197460032833" />
-      <entry key="S5" value="2.5888685977251598" />
-      <entry key="S10" value="2.7829218019497013" />
-      <entry key="S30" value="3.56168827064757" />
-      <entry key="S60" value="7.224603616997017" />
-      <entry key="M2" value="16.109972446858166" />
-      <entry key="M5" value="32.75167741755232" />
-      <entry key="M10" value="43.67658304663229" />
-      <entry key="M15" value="48.3887129782535" />
-      <entry key="M30" value="53.79025387218023" />
-      <entry key="H1" value="56.785849660062766" />
-      <entry key="H2" value="58.36449433765685" />
-      <entry key="H4" value="59.174995324717756" />
-      <entry key="D1" value="59.861479522953225" />
-      <entry key="W1" value="59.98018622351171" />
+      <entry key="MS100" value="1.0019356962639316" />
+      <entry key="MS500" value="1.493758346758626" />
+      <entry key="S2" value="3.0284840537959408" />
+      <entry key="S5" value="6.038829322949387" />
+      <entry key="S10" value="9.914489711260877" />
+      <entry key="S30" value="15.08501052379154" />
+      <entry key="S60" value="17.181331707106626" />
+      <entry key="M2" value="19.314517860647197" />
+      <entry key="M5" value="22.997637994905773" />
+      <entry key="M10" value="29.78405468713152" />
+      <entry key="M15" value="37.25425764180839" />
+      <entry key="M30" value="53.314814146129194" />
+      <entry key="H1" value="67.59665523825757" />
+      <entry key="H2" value="77.21363112549068" />
+      <entry key="H4" value="82.80661646631638" />
+      <entry key="D1" value="87.92335437580677" />
+      <entry key="W1" value="88.84506841055057" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -95,23 +99,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9796332084643956" />
-      <entry key="MS500" value="1.2319658768692485" />
-      <entry key="S2" value="2.131302633996797" />
-      <entry key="S5" value="2.587792141402195" />
-      <entry key="S10" value="2.782343161685524" />
-      <entry key="S30" value="3.5614274653198086" />
-      <entry key="S60" value="7.22426093516526" />
-      <entry key="M2" value="16.10949312474299" />
-      <entry key="M5" value="32.751224749705635" />
-      <entry key="M10" value="43.67626605127488" />
-      <entry key="M15" value="48.38847509412582" />
-      <entry key="M30" value="53.790119572749255" />
-      <entry key="H1" value="56.78577822440571" />
-      <entry key="H2" value="58.364457486950656" />
-      <entry key="H4" value="59.17497660809393" />
-      <entry key="D1" value="59.86147636235995" />
-      <entry key="W1" value="59.98018577098122" />
+      <entry key="MS100" value="0.9880447341134903" />
+      <entry key="MS500" value="1.4353313845055624" />
+      <entry key="S2" value="2.9647048236233418" />
+      <entry key="S5" value="6.0034619973629235" />
+      <entry key="S10" value="9.894286831244555" />
+      <entry key="S30" value="15.077513315047238" />
+      <entry key="S60" value="17.177439278372304" />
+      <entry key="M2" value="19.312474419380823" />
+      <entry key="M5" value="22.9967423843553" />
+      <entry key="M10" value="29.783548918734947" />
+      <entry key="M15" value="37.253881147763344" />
+      <entry key="M30" value="53.31458426783545" />
+      <entry key="H1" value="67.59652182322533" />
+      <entry key="H2" value="77.21355819033046" />
+      <entry key="H4" value="82.8065781860358" />
+      <entry key="D1" value="87.92334771916765" />
+      <entry key="W1" value="88.84506745248135" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -149,7 +153,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "copilot.chat.legacySessionMetadata.migrated": "true",
-    "git-widget-placeholder": "folder-to-write",
+    "git-widget-placeholder": "vercel-prebuild",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
@@ -182,7 +186,7 @@
       <updated>1781789119904</updated>
       <workItem from="1781789120961" duration="554000" />
       <workItem from="1781789728672" duration="1000000" />
-      <workItem from="1781791958431" duration="1275000" />
+      <workItem from="1781791958431" duration="2772000" />
     </task>
     <task id="LOCAL-00001" summary="db changes">
       <option name="closed" value="true" />
@@ -208,16 +212,37 @@
       <option name="project" value="LOCAL" />
       <updated>1781811666053</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="tmp to file 2">
+      <option name="closed" value="true" />
+      <created>1781812084129</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1781812084129</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="db changes" />
     <MESSAGE value="fix for the unix file system" />
     <MESSAGE value="tmp to file" />
-    <option name="LAST_COMMIT_MESSAGE" value="tmp to file" />
+    <MESSAGE value="tmp to file 2" />
+    <MESSAGE value="vercel pre-build" />
+    <option name="LAST_COMMIT_MESSAGE" value="vercel pre-build" />
   </component>
 </project>

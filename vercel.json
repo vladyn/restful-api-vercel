@@ -2,11 +2,15 @@
     "version": 2,
     "builds": [
         {
+            "src": "db/users-generator.mjs",
+            "use": "@vercel/node"
+        },
+        {
             "src": "server.js",
             "use": "@vercel/node",
             "config": {
                 "includeFiles": [
-                    "tmp/db.json"
+                    "/tmp/db.json"
                 ]
             }
         }
